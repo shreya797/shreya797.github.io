@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b1.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b2.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b3.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b4.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b5.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box6 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b6.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+
+
+h1 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 100px;
+    color: rgb(253, 84, 112);
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+   transform-origin: left;
+     /* animation: animate 3s infinite;
+
+}
+
+
+
+
+
+
+@keyframes animate 
+{ 
+        0% 
+    { 
+     opacity: 0;
+}
+        50%
+{ 
+  opacity: 1; 
+}
+
+100% 
+{ 
+   opacity: 0; 
+}
+
+} 
+
+
