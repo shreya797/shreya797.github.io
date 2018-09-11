@@ -1,0 +1,19 @@
+html, body {
+
+    background: black;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    
+}
+
+
+
+
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+/* This img width and height makes the image responsive to screens 
+
