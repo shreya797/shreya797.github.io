@@ -1,0 +1,20 @@
+.wrapper > div{
+    background: #eee;
+    padding: 1em; 
+    border: 2px;
+    border-color: black;
+    
+}
+
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+    
+}
+
+.wrapper {
+    float: right;
+    display:grid;
+   grid-template-rows: 60em 40em; 
+   grid-template-columns: 70em;
+}
+
