@@ -1,0 +1,60 @@
+html, body {
+    background: #000;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    text-align: center;
+ }
+ 
+ img {
+    height: auto;
+    max-width: 100%;
+ }
+ 
+ a {
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ h1 {
+    padding: 2rem;
+ }
+ 
+ .emotion__wrapper {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+ }
+ 
+ .navigation__wrapper {
+    bottom: 0;
+    left: 0;
+    /* position: absolute; */
+    right: 0;
+ }
+ 
+ .navigation__wrapper ul {
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ }
+ 
+ .navigation__wrapper ul li {
+    display: inline-block;
+    padding: 2rem;
+    width: 33%;
+ }
+ 
+ 
+
+
+
+ 

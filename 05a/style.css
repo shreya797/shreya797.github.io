@@ -1,0 +1,73 @@
+.square1 {
+            width: 100px;
+            height: 100px;
+            background-color: lightpink; 
+            margin-top: 500px; 
+            margin-left: 600px; 
+            float: left;
+            animation-name: move;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue; 
+    margin-top: 500px; 
+    margin-right: 100px; 
+    float: right; 
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color: lavender; 
+    margin-top: 500px; 
+    margin-left: 800px;
+    float: center; 
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+.order {
+    display: inline-block;
+    margin:0 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+@keyframes move {
+        from{ transform: rotate(0deg)       }
+        to { transform: rotate(360deg) 
+                                  }
+}
+

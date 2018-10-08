@@ -1,0 +1,26 @@
+
+body { background-color: black;}
+
+
+.circle {
+            border-radius: 10cm;
+            background-color: lightgoldenrodyellow;
+            height: 100px;
+            width: 100px; 
+            margin-top: 25%;
+            margin-left: 45%;
+         animation-name: zoomin;
+         animation-duration: 7s; 
+         animation-iteration-count: infinite;
+       
+
+            
+
+}
+
+@keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(5);}
+    100% {transform: scale(100);}
+    
+}
