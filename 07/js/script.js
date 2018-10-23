@@ -11,10 +11,10 @@
 const messageWrapper = document.getElementById('message');
 
 
-var nOne = prompt('Enter first number');
-var nTwo = prompt('Enter second number');
-var nThree = prompt('Enter third number');
-var nFour = prompt('Enter fourth number');
+var nOne = parseInt(prompt('Enter first number'));
+var nTwo = parseInt(prompt('Enter second number'));
+var nThree = parseInt(prompt('Enter third number'));
+var nFour = parseInt(prompt('Enter fourth number'));
 
  
 let message = 'Your answer is ' + (nOne+nTwo-nThree) *nFour; 
