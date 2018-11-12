@@ -370,9 +370,41 @@ document.onkeyup = function(event) {
 
     }
 
+    if (keyCodePressed === 89) {
+
+        const degreesRotaion = Math.floor(Math.random()*360);
+
+        const yoyo = document.createElement('img');
+        yoyo.className = 'yoyo';
+        yoyo.src = `img/yoyo.png`;
+        yoyo.style.left = `${coordinates.x}px`;
+        yoyo.style.top = `${coordinates.y}px`;
+        yoyo.style.transform = `rotate(${degreesRotaion}deg)`;
+        document.body.appendChild(yoyo);
+
+    }
+
+    if (keyCodePressed === 90) {
+
+        const degreesRotaion = Math.floor(Math.random()*360);
+
+        const zebra = document.createElement('img');
+        zebra.className = 'zebra';
+        zebra.src = `img/zebra.png`;
+        zebra.style.left = `${coordinates.x}px`;
+        zebra.style.top = `${coordinates.y}px`;
+        zebra.style.transform = `rotate(${degreesRotaion}deg)`;
+        document.body.appendChild(zebra);
+
+    }
+
 
     
-
+    
+    if (keyCodePressed === 13) {
+    var audio = new Audio('music.mp3');
+    audio.play()
+} 
 
 
 
