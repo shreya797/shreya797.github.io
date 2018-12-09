@@ -200,6 +200,8 @@ z-index: 2;
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 #box2 {
     height: 100vh;
@@ -208,9 +210,9 @@ z-index: 2;
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    
    
 }
 #box3 {
@@ -220,6 +222,8 @@ z-index: 2;
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -264,6 +268,8 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
    
 }
 #boxh2 {
@@ -273,9 +279,9 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    
    
 }
 #boxh3 {
@@ -285,9 +291,9 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #boxhow1 {
@@ -297,6 +303,8 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 #boxhow2 {
     height: 100vh;
@@ -305,9 +313,9 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
    
 }
 #boxhow3 {
@@ -317,6 +325,8 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -335,10 +345,9 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
-   
+    align-items: center;
+    justify-content: center;
+    
 }
 #boxwhy3 {
     height: 100vh;
@@ -347,41 +356,23 @@ h1 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
-}
-
-h2 {
-    font-family: 'Avenir';
-    font-size: 300px;
-    color: white;
-  
-    text-align: justify;
-    display: flex;
-    vertical-align: middle;
-   transform-origin: left;
-   animation: animate 4s ;
-    position: absolute;
-    max-width: 100vh;
-    margin-top: 100px;
-    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+   
 }
 
 h3 {
     font-family: 'Avenir';
-    font-size: 300px;
+    font-size: 100px;
     color: white;
-  
-    text-align: justify;
     display: flex;
     vertical-align: middle;
    transform-origin: left;
    animation: animate 4s ;
     position: absolute;
-    max-width: 100vh;
-    margin-top: 500px;
-    margin-left: 20px;
+    align-content: center;
+  margin-left: -500px; 
+  
 }
 
 
@@ -396,9 +387,9 @@ h3 {
     background-size: cover;
     display: flex;
     background-attachment: fixed;
-    align-content: center;
-    margin-left: 430px;
-    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+  
 	overflow:hidden;
 
 	background-size:cover;
@@ -418,4 +409,74 @@ h3 {
 
 #fishbitmap {
 	display: none;
+}
+
+
+.embed-container { 
+  padding-bottom: 56.25%; 
+  height: 0; overflow: hidden; 
+  max-width: 100%; } 
+
+  .embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; }
+
+
+  .stat {
+
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+  
+  
+  }
+
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+
+    h2 {
+      font-family: 'Avenir';
+      font-size: 300px;
+      color: white;
+    
+      text-align: justify;
+      display: flex;
+      vertical-align: middle;
+     transform-origin: left;
+     animation: animate 4s ;
+      position: absolute;
+      max-width: 100vh;
+      margin-top: 100px;
+      margin-left: 280px;
+  }
+}
+
+#value {
+  font-family: 'Avenir';
+  font-size: 500px;
+  color: slategray;
+
+  text-align: justify;
+  display: flex;
+  vertical-align: middle;
+ transform-origin: left;
+ animation: animate 4s ;
+  position: absolute;
+  max-width: 100vh;
+  margin-left: -200px;
+ 
+
 }
