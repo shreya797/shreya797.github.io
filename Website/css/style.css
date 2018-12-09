@@ -307,26 +307,28 @@ h1 {
     justify-content: center;
 }
 #boxhow2 {
-    height: 100vh;
-    width: 100%;
-    background-image: ;
-    background-size: cover;
-    display: flex;
-    background-attachment: fixed;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(b3.jpg);
+  background-size: cover;
+  display: flex;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
    
 }
 #boxhow3 {
-    height: 100vh;
-    width: 100%;
-    background-image: url(b3.jpg);
-    background-size: cover;
-    display: flex;
-    background-attachment: fixed;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: ;
+  background-size: cover;
+  display: flex;
+  background-attachment: fixed;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+    
 }
 
 

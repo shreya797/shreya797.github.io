@@ -346,6 +346,6 @@ function update() {
 		}, stepTime);
 	}
 	
-	animateValue("value", 0, 11414, 5000);
+	animateValue("value", 0, 11417, 5000);
 	
 	
